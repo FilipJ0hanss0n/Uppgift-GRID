@@ -1,0 +1,35 @@
+p{
+	color:red;
+}
+
+.b{
+	background-color:blue;
+}
+
+.h{
+	color:green;
+	font-size:50px;
+}	
+
+.f{
+	color:white;
+}
+
+/*GRID*/
+
+.hej{ grid-area:020002,main; }
+.hej2{ grid-area:020002,header; }
+
+.grid-container{
+	display:grid;
+	grid-template-areas;
+	'header header main main'
+	grid-gap:2px;
+	background-color: black;
+	padding: 5px;
+}
+
+.grid-container > div {
+	background-color:rgba(255, 255, 255, 0.8);
+	border: 1px solid black;
+	text-align: center;
